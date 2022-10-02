@@ -32,8 +32,26 @@ main{
 }
 #tela{
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 269px;
-    height: 471px;
+    top: 84px;
+    left: 25px;
+    width: 262px;
+    height: 465px;
+}
+#redes-sociais{
+    text-align: right;
+}
+#redes-sociais>a img{
+    border-radius: 50%;
+    margin: 5px;
+    width: 50px;
+     box-sizing: border-box;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.658);
+
+}
+#redes-sociais>a img:hover{
+    transform: translate(-3px, -3px);
+    transition: transform .3s, border .5s;
+    box-shadow: 3px 3px 10px black;
+    border: 3px solid rgba(255, 255, 255, 0.144);
+    
 }
